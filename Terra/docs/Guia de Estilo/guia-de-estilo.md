@@ -15,7 +15,7 @@ Cores: os dez mandamentos sobre o uso de cores;
 <p align= "justify"> &emsp;
 Uma estrutura comum de guia de estilo é a seguinte (Marcus, 1992; Mayhew, 1999):</p>
 
-### **s1. Introdução**
+### **1. Introdução**
 
 #### **1.1. Objetivo do guia de estilo**
 <p align= "justify"> &emsp;O objetivo é registrar as principais decisões de design tomadas, de forma que elas não se percam, isto é, sejam efetivamente incorporadas no produto final, no caso a elaboração de um protótipo.</p>
@@ -61,7 +61,8 @@ São inúmeras janelas, existem janelas para categorizar notícias, e a cada not
 #### **3.3. Tipografia**
 <p align= "justify"> &emsp;
 Em relação a Tipografia, o site utiliza as seguintes fontes:</p>
-	
+
+![home](../img/fontes.png)	
 
 	
 #### **3.4. Símbolos não tipográficos**
@@ -77,9 +78,12 @@ Temos a esquerda, as redes sociais da página, do outro lado, opções de chat, 
  
 #### **3.5. Cores**
 <p align= "justify"> &emsp;A logo pode ser encontrada de duas formas diferentes, o nome do site por extenso ou apenas sua logo. Aqui está a palheta de cores de ambas as logos:</p>
+
+![home](../img/core_logo.png)
 <p align= "justify"> &emsp;
 No percorrer do site encontramos as seguintes cores:</p>
 
+![home](../img/cores_terra.png)
 
  
 #### **3.6. Animações**
@@ -129,6 +133,7 @@ Depois, com apenas um clique em “enviar”, o usuário estará apto a conversa
 
 ![home](../img/t1.png)
 ![home](../img/t4.png)
+![home](../img/conj_t.png)
 
 
 
@@ -147,3 +152,12 @@ Depois, com apenas um clique em “enviar”, o usuário estará apto a conversa
 Mayhew (1999) sugere ainda que o guia de estilo inclua todos os produtos do levantamento de dados e análise das necessidades dos usuários, registrando o design rationale, ou seja, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão.</p>
 <p align= "justify"> &emsp;
 Quando elaboramos um guia de estilo, não basta simplesmente produzi-lo. Devemos comunicar adequadamente sua existência e importância para os demais designers e desenvolvedores, oferecer treinamento, facilitar o acesso ao documento como um todo ou a um tópico específico e investir em uma mudança na cultura de design 284 Interação Humano-Computador e desenvolvimento da equipe. Além disso, não devemos tratar o guia de estilo como um conjunto de regras, mas sim uma ferramenta prática de apoio ao trabalho e à criatividade. Em outras palavras, um guia de estilo deve ser utilizado como parte de um processo reflexivo de design, e não como um conjunto de soluções prontas ou fórmulas geradoras de soluções.</p>
+
+### **Referência**
+* <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
+
+### **Histórico de Revisões**
+
+Data | Responsável | Versão | Alteração 
+---- | ----------- | ------ | ---------
+12/10/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Guia de Estilo|
