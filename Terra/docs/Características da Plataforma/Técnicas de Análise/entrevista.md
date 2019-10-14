@@ -2,7 +2,7 @@
 
 <p align= "justify"> &emsp;A entrevista é uma das técnicas mais utilizadas de coleta de dados e levantamento de requisitos. Trata-se de uma conversa guiada por um roteiro de perguntas ou tópicos, na qual um entrevistador busca obter informação de um entrevistado (Seidman, 1998).</p>
 
-![ent_icon](../img/interview-icon.png)
+![ent_icon](../../img/interview-icon.png)
 <p align= "justify"> &emsp; As entrevistas podem ser classificadas em estruturadas, não estruturadas e semiestruturadas. Utilizaremos uma entrevista estruturada, onde o entrevistador se mantém fiel a um roteiro, fazendo as perguntas previamente definidas na ordem especificada. O entrevistador não possui muita liberdade para explorar tópicos novos que surjam durante a entrevista. </p> 
 
 ### **Perguntas**
@@ -21,7 +21,7 @@
 
 #### **Entrevistado 1**
 
-![boy_icon](../img/boy-icon-png-10.jpg)
+![boy_icon](../../img/boy-icon-png-10.jpg)
 <p align="center"><i>Gabriel dos Santos Barbosa, 19 anos
 Estudante</i></p>
 
@@ -45,7 +45,7 @@ Estudante</i></p>
 
 #### **Entrevistado 2**
 
-![man_icon](../img/man.png)
+![man_icon](../../img/man.png)
 <p align="center"><i>
 Danillo Teixeira de Sousa, 30 anos</i></p>
 <p align="center"><i>				
@@ -71,7 +71,7 @@ Contador Mestre em Ministério da Educação</i></p>
 
 #### **Entrevistado 3**
 
-![woman_icon](../img/old-woman.png)
+![woman_icon](../../img/old-woman.png)
 <p align="center"><i>Isabel Lopes Sousa, 69 anos</i></p>
 <p align="center"><i>Aposentada</i></p>
 
