@@ -35,7 +35,7 @@ Estudante</i></p>
 <p align="justify"><i>Ambos, desktop e celular, não tenho preferência, tudo depende de qual eu tiver em minhas mãos na hora em que alguma notícia me chama a atenção.</i></p>
 
 <p align="justify"><b>4. Você acha que um portal de notícias deveria mostrar além das notícias do dia a dia? Notícias sobre horóscopo, futebol, economia por exemplo.</b></p>
-<p align="justify"><i>Sim, com certeza. Creio que o que todos querem é obter máximo de conteúdo que lhes é  interessante, de uma forma simples e unificada, tudo resolvido em “apenas um clique”.</i>
+<p align="justify"><i>Sim, com certeza. Creio que o que todos querem é obter máximo de conteúdo que lhes é  interessante, de uma forma simples e unificada, tudo resolvido em “apenas um clique”.</i></p>
 
 <p align="justify"><b>5. Seria interessante um portal de notícias enviar notificações sobre notícias para você?</b></p>
 <p align="justify"><i>Para mim, sim. Porém acho que cabe a cada um definir suas preferências quanto a isso.</i></p>
@@ -106,3 +106,4 @@ Contador Mestre em Ministério da Educação</i></p>
 Data | Responsável | Versão | Alteração 
 ---- | ----------- | ------ | ---------
 12/10/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Entrevistas|
+14/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0 | Ajustando formatação |

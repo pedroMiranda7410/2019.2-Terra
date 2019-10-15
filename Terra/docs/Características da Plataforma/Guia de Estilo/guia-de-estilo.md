@@ -7,11 +7,11 @@
 <p align= "justify">
 Um guia de estilo deve incorporar decisões de design envolvendo os principais elementos e considerações de design de interface. Marcus (1992) considera os seguintes elementos:</p>
 <p align= "justify"><b>1.</b> Layout: proporção e grids; uso de metáforas espaciais; design gráfico de exibidores e ferramentas;</p>
-<p align= "justify"><b>2.</b> Tipografia e seu uso em diálogos, formulários e relatórios;
+<p align= "justify"><b>2.</b> Tipografia e seu uso em diálogos, formulários e relatórios;</p>
 <p align= "justify"><b>3.</b> Simbolismo: clareza e consistência no design de ícones;
-Cores: os dez mandamentos sobre o uso de cores;
+Cores: os dez mandamentos sobre o uso de cores;</p>
 <p align= "justify"><b>4.</b> Visualização de informação: design de gráficos, diagramas e mapas;
-Design de telas e elementos de interface (widgets).
+Design de telas e elementos de interface (widgets).</p>
 <p align= "justify"> &emsp;
 Uma estrutura comum de guia de estilo é a seguinte (Marcus, 1992; Mayhew, 1999):</p>
 
