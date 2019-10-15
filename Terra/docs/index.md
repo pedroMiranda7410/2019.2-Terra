@@ -1,6 +1,6 @@
 # Home
 
-![artIcon](../../img/terra.svg)
+![artIcon](../../img/terra.gif)
 
 ## **Sobre o Terra**
 <p align= "justify">Terra é uma empresa brasileira de internet pertencente ao grupo espanhol Telefónica, um dos maiores conglomerados de telecomunicações fixas e móveis do mundo.</p>
