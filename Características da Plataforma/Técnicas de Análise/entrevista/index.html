@@ -1,112 +1,593 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
         <title>Entrevista - Terra</title>
-        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../../..">Terra</a>
-                </div>
-
-                <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../../..">Welcome to MkDocs</a>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Características da Plataforma <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-  <li class="dropdown-submenu">
-    <a href="#">Guia de Estilo</a>
-    <ul class="dropdown-menu">
-            
-<li >
-    <a href="../../Guia de Estilo/guia-de-estilo/">Guia de estilo</a>
-</li>
-    </ul>
-  </li>
-                                    
-  <li class="dropdown-submenu">
-    <a href="#">Técnicas de Análise</a>
-    <ul class="dropdown-menu">
-            
-<li class="active">
-    <a href="./">Entrevista</a>
-</li>
-    </ul>
-  </li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li >
-                                <a rel="next" href="../../Guia de Estilo/guia-de-estilo/">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="disabled">
-                                <a rel="prev" >
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="#ff7212" data-md-color-accent="black">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#entrevista" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Terra" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Terra
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Entrevista
+              
+            </span>
+          
         </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
 
-        <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#entrevista">Entrevista</a></li>
-            <li><a href="#perguntas">Perguntas</a></li>
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Análise de Uso/avaliacao-heuristica/" class="md-tabs__link">
+          Características da Plataforma
+        </a>
+      
+    </li>
+  
+
+  
+
+      
     </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="Terra" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Terra
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
 
-<h2 id="entrevista"><strong>Entrevista</strong></h2>
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Características da Plataforma
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Características da Plataforma
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Análise de Uso
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Análise de Uso
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise de Uso/avaliacao-heuristica/" title="Avaliacao heuristica" class="md-nav__link">
+      Avaliacao heuristica
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise de Uso/avaliacao-heuristica2.0/" title="Avaliacao heuristica2.0" class="md-nav__link">
+      Avaliacao heuristica2.0
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Guia de Estilo
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Guia de Estilo
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Guia de Estilo/guia-de-estilo/" title="Guia de estilo" class="md-nav__link">
+      Guia de estilo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3" checked>
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Técnicas de Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Técnicas de Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Entrevista
+      </label>
+    
+    <a href="./" title="Entrevista" class="md-nav__link md-nav__link--active">
+      Entrevista
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    Entrevista
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perguntas" class="md-nav__link">
+    Perguntas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-1" class="md-nav__link">
+    Entrevistado 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-2" class="md-nav__link">
+    Entrevistado 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-3" class="md-nav__link">
+    Entrevistado 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusoes-sobre-as-entrevistas" class="md-nav__link">
+    Conclusões Sobre as Entrevistas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../grupo-de-foco/" title="Grupo de foco" class="md-nav__link">
+      Grupo de foco
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    Entrevista
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perguntas" class="md-nav__link">
+    Perguntas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-1" class="md-nav__link">
+    Entrevistado 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-2" class="md-nav__link">
+    Entrevistado 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevistado-3" class="md-nav__link">
+    Entrevistado 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusoes-sobre-as-entrevistas" class="md-nav__link">
+    Conclusões Sobre as Entrevistas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Entrevista</h1>
+                
+                <h2 id="entrevista"><strong>Entrevista</strong></h2>
 <p align= "justify"> &emsp;A entrevista é uma das técnicas mais utilizadas de coleta de dados e levantamento de requisitos. Trata-se de uma conversa guiada por um roteiro de perguntas ou tópicos, na qual um entrevistador busca obter informação de um entrevistado (Seidman, 1998).</p>
 
 <p><img alt="ent_icon" src="../../../img/interview-icon.png" />
@@ -141,153 +622,196 @@ Estudante</i></p></p>
 
 <p align="justify"><b>4. Você acha que um portal de notícias deveria mostrar além das notícias do dia a dia? Notícias sobre horóscopo, futebol, economia por exemplo.</b></p>
 
-<p align="justify"><i>Sim, com certeza. Creio que o que todos querem é obter máximo de conteúdo que lhes é  interessante, de uma forma simples e unificada, tudo resolvido em “apenas um clique”.</i>
+<p align="justify"><i>Sim, com certeza. Creio que o que todos querem é obter máximo de conteúdo que lhes é  interessante, de uma forma simples e unificada, tudo resolvido em “apenas um clique”.</i></p>
 
 <p align="justify"><b>5. Seria interessante um portal de notícias enviar notificações sobre notícias para você?</b></p>
+
 <p align="justify"><i>Para mim, sim. Porém acho que cabe a cada um definir suas preferências quanto a isso.</i></p>
 
 <p align="justify"><b>6. Você acha que seria interessante o portal de notícias disponibilizar vídeos sobre alguma determinada notícia além da notícia em forma de texto?</b></p>
+
 <p align="justify"><i>Sim, algumas pessoas simplesmente não tem tempo para parar e ler um artigo, às vezes entre deixar de conhecer um assunto, e absorvê-lo a partir de um forma de linguagem diferente, é totalmente válido, e em alguns casos proporciona até um melhor entendimento a respeito do assunto apresentado.</i></p>
 
-#### **Entrevistado 2**
-
-![man_icon](../../img/man.png)
+<h4 id="entrevistado-2"><strong>Entrevistado 2</strong></h4>
+<p><img alt="man_icon" src="../../../img/man.png" />
 <p align="center"><i>
 Danillo Teixeira de Sousa, 30 anos</i></p>
-<p align="center"><i>               
-Contador Mestre em Ministério da Educação</i></p>
-
+<p align="center"><i>             <br />
+Contador Mestre em Ministério da Educação</i></p></p>
 <p align="justify"><b>1. Você costuma acessar sites de notícias? Se sim, qual a frequência?</b></p>
+
 <p align="justify"><i>Sim, diariamente</i></p>
 
 <p align="justify"><b>2. Você acha que um bom design e uma boa usabilidade de um portal de notícias influencia no acesso do usuário?</b></p>
+
 <p align="justify"><i>Sim, uma aplicação simples e bonita faz toda a diferença.</i></p>
 
 <p align="justify"><b>3. Como você acessa portais de notícias por um computador desktop, por um smartphone ou algum outro meio?</b></p>
+
 <p align="justify"><i>Computador desktop, notebook e smartphone.</i></p>
 
 <p align="justify"><b>4. Você acha que um portal de notícias deveria mostrar além das notícias do dia a dia? Notícias sobre horóscopo, futebol, economia por exemplo.</b></p>
+
 <p align="justify"><i>Deveriam pensar uma forma de mostrar apenas notícias do meu interesse, além das notícias principais.</i></p>
 
 <p align="justify"><b>5. Seria interessante um portal de notícias enviar notificações sobre notícias para você?</b></p>
+
 <p align="justify"><i>Sim, mas desde que não fosse algo chato, que incomode.</i></p>
 
 <p align="justify"><b>6. Você acha que seria interessante o portal de notícias disponibilizar vídeos sobre alguma determinada notícia além da notícia em forma de texto?</b></p>
+
 <p align="justify"><i>Sim, vídeos auxiliam e muito, usuários com deficiência auditiva iriam se beneficiar muito com isso.</i></p>
 
-#### **Entrevistado 3**
-
-![woman_icon](../../img/old-woman.png)
+<h4 id="entrevistado-3"><strong>Entrevistado 3</strong></h4>
+<p><img alt="woman_icon" src="../../../img/old-woman.png" />
 <p align="center"><i>Isabel Lopes Sousa, 69 anos</i></p>
-<p align="center"><i>Aposentada</i></p>
-
+<p align="center"><i>Aposentada</i></p></p>
 <p align="justify"><b>1. Você costuma acessar sites de notícias? Se sim, qual a frequência?</b></p>
+
 <p align="justify"><i>Não, acompanho diariamente telejornais que passam na TV.</i></p>
 
 <p align="justify"><b>2. Você acha que um bom design e uma boa usabilidade de um portal de notícias influencia no acesso do usuário?</b></p>
-<p align="justify"><i>Bom, como não uso esses sites online, creio que algo fácil de mexer possa ser muito bom para quem está usando o site, depois vou pedir para o meu neto me ensinar a usar algum que seja feito para pessoas que sabem muito pouco de tecnologia.</i></p> 
+
+<p align="justify"><i>Bom, como não uso esses sites online, creio que algo fácil de mexer possa ser muito bom para quem está usando o site, depois vou pedir para o meu neto me ensinar a usar algum que seja feito para pessoas que sabem muito pouco de tecnologia.</i></p>
 
 <p align="justify"><b>3. Como você acessa portais de notícias por um computador desktop, por um smartphone ou algum outro meio?</b></p>
+
 <p align="justify"><i>Tenho acesso a notícias pela televisão e por minhas amigas que me mandam mensagem no celular.</i></p>
 
 <p align="justify"><b>4. Você acha que um portal de notícias deveria mostrar além das notícias do dia a dia? Notícias sobre horóscopo, futebol, economia por exemplo.</b></p>
-<p align="justify"><i>Jornais que passam na televisão já são assim, eu gosto muito de ver sobre os mais variados assuntos.</i></p> 
+
+<p align="justify"><i>Jornais que passam na televisão já são assim, eu gosto muito de ver sobre os mais variados assuntos.</i></p>
 
 <p align="justify"><b>5. Seria interessante um portal de notícias enviar notificações sobre notícias para você?</b></p>
+
 <p align="justify"><i>Seria interessante, desde que seja notícias relacionadas ao meu gosto.</i></p>
 
 <p align="justify"><b>6. Você acha que seria interessante o portal de notícias disponibilizar vídeos sobre alguma determinada notícia além da notícia em forma de texto?</b></p>
+
 <p align="justify"><i>Vídeos são bem melhores, eu mesmo possuo a visão debilitada, prefiro escutar a notícia do que lê-la.</i></p>
 
-### **Conclusões Sobre as Entrevistas**
-<p align= "justify"> &emsp; Foram pegos entrevistados correspondentes a 3 faixas etárias diferentes, notou-se que estar por dentro de notícias em geral é algo fundamental, seja por meio de sites ou telejornais, por exemplo. </p>
-<p align= "justify"> &emsp; Em relação a portais de notícias, proporcionar um fluxo interativo bonito e pragmático influencia na experiência do usuário, assim como mandar ao mesmo notificações sobre assuntos específicos de sua preferência. Vídeos também são de bastante agrado, como a terceira entrevistada falou. </p>
+<h3 id="conclusoes-sobre-as-entrevistas"><strong>Conclusões Sobre as Entrevistas</strong></h3>
+<p><p align= "justify"> &emsp; Foram pegos entrevistados correspondentes a 3 faixas etárias diferentes, notou-se que estar por dentro de notícias em geral é algo fundamental, seja por meio de sites ou telejornais, por exemplo. </p>
+<p align= "justify"> &emsp; Em relação a portais de notícias, proporcionar um fluxo interativo bonito e pragmático influencia na experiência do usuário, assim como mandar ao mesmo notificações sobre assuntos específicos de sua preferência. Vídeos também são de bastante agrado, como a terceira entrevistada falou. </p></p>
+<h3 id="referencia"><strong>Referência</strong></h3>
+<ul>
+<li><p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p></li>
+</ul>
+<h3 id="historico-de-revisoes"><strong>Histórico de Revisões</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Responsável</th>
+<th>Versão</th>
+<th>Alteração</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12/10/2019</td>
+<td><a href="http://github.com/dansousamelo">@dansousamelo</a></td>
+<td>1.0</td>
+<td>Adicionando Entrevistas</td>
+</tr>
+<tr>
+<td>14/10/2019</td>
+<td><a href="http://github.com/pedroMiranda7410">@pedroMiranda7410</a></td>
+<td>1.0</td>
+<td>Ajustando formatação</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
 
 
-### **Referência**
-* <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
-
-### **Histórico de Revisões**
-
-Data | Responsável | Versão | Alteração 
----- | ----------- | ------ | ---------
-12/10/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Entrevistas|</div>
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = "../../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../../js/base.js" defer></script>
-        <script src="../../../search/main.js" defer></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Guia de Estilo/guia-de-estilo/" title="Guia de estilo" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Guia de estilo
+              </span>
             </div>
-            <div class="modal-footer">
+          </a>
+        
+        
+          <a href="../grupo-de-foco/" title="Grupo de foco" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Grupo de foco
+              </span>
             </div>
-        </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
     </div>
-</div>
-
-    </body>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.c648116f.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
 </html>

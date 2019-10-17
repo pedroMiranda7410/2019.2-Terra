@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+
+div span:first-child {
+    color:transparent;
+}
+.md-header-nav__topic:first-child::before{
+    /* content: url(https://www.rico.com.vc/assets/css/images/logo.png); */
+    /* background-image:url(https://www.rico.com.vc/assets/css/images/logo.png); */
+    position: relative;
+    background-size: 70px;
+    margin-top:0px;
+    display: inline-block;
+    width: 69.9999999999999px;
+    height: 28.99999999px;
+    color:white;
+    content: "Terra";
+}
+
+.md-flex__cell .md-logo i{
+    color:transparent;
+}
+
+.md-flex__cell .md-logo i:after{
+    position: absolute;
+    background-image: url('../img/terra_logo.png');
+    background-size: 40px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    content:"";
+}
+
+.md-header {
+    background: #ff7212;
+}
+.md-header:before{
+    content:'';
+    position:absolute;
+    top:0;
+    background: linear-gradient(to right,rgba(255,114,18,1), rgba(255,167,108,0.8));
+    height:100%;
+    width:150px;
+    right:0;
+}
+
+
+.md-tabs{
+    background: linear-gradient(to right,rgba(255,114,18,1), rgba(255,167,108,0.8));
+    color: white;
+}
+
+.md-tabs__inner:after{
+    content:'';
+    position:absolute;
+    top:0;
+    background: linear-gradient(to bottom,rgba(255,114,18,1), rgba(255,167,108,0.8));
+    width:500px;
+    height: 96px;
+    right:0;
+    border-left: 10px solid rgba(255,114,18,1);
+    border-bottom-left-radius: 80%;
+
+}
+
+
+article {
+    height: 100%;
+}
+
+article h1{
+    text-align:center;
+}
+
+
+article img{
+    display:block;
+    margin: 0 auto;
+    justify-content:center;
+    border-radius: 30px;
+}
+
+article table{
+    width: 100%;
+    border-top-right-radius: 45%;
+}
+
+.md-typeset .md-typeset__table {
+    display: block;
+}
+
+.md-typeset table th:not(:last-child) {
+    background-color: rgba(255,114,18,1);
+    color: #fff;
+}
+
+.md-typeset table th:last-child {
+    background-color: rgba(255,114,18,1);
+    color: #fff;
+    border-top-right-radius: 30px;
+    border-top: 2px solid #03af03;
+    border-right: 6px solid #03af03;
+
+}
+
+.md-typeset table a {
+    color:#03af03;
+}
+
+.md-content a {
+    color:#03af03;
+}
+
+
+
+.md-footer-nav {
+    background-color: rgba(255,114,18,1);
+}
+
+.md-footer-meta{
+    background-color: rgba(255,114,18,1);
+}
+
+footer {
+    margin-top: 100px;
+
+}

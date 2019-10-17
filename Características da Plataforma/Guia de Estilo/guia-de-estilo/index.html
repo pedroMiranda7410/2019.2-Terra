@@ -1,111 +1,933 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../../../img/favicon.ico">
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
         <title>Guia de estilo - Terra</title>
-        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../../js/bootstrap-3.0.3.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../../..">Terra</a>
-                </div>
-
-                <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../../..">Welcome to MkDocs</a>
-                            </li>
-                            <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Características da Plataforma <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-  <li class="dropdown-submenu">
-    <a href="#">Guia de Estilo</a>
-    <ul class="dropdown-menu">
-            
-<li class="active">
-    <a href="./">Guia de estilo</a>
-</li>
-    </ul>
-  </li>
-                                    
-  <li class="dropdown-submenu">
-    <a href="#">Técnicas de Análise</a>
-    <ul class="dropdown-menu">
-            
-<li >
-    <a href="../../Técnicas de Análise/entrevista/">Entrevista</a>
-</li>
-    </ul>
-  </li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li >
-                                <a rel="next" href="../../..">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../../Técnicas de Análise/entrevista/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="#ff7212" data-md-color-accent="black">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#guia-de-estilo" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="Terra" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Terra
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Guia de estilo
+              
+            </span>
+          
         </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
 
-        <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#guia-de-estilo">Guia de Estilo</a></li>
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Análise de Uso/avaliacao-heuristica/" class="md-tabs__link">
+          Características da Plataforma
+        </a>
+      
+    </li>
+  
+
+  
+
+      
     </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="Terra" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Terra
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
 
-<h2 id="guia-de-estilo"><strong>Guia de Estilo</strong></h2>
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Características da Plataforma
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Características da Plataforma
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Análise de Uso
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Análise de Uso
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise de Uso/avaliacao-heuristica/" title="Avaliacao heuristica" class="md-nav__link">
+      Avaliacao heuristica
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise de Uso/avaliacao-heuristica2.0/" title="Avaliacao heuristica2.0" class="md-nav__link">
+      Avaliacao heuristica2.0
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Guia de Estilo
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Guia de Estilo
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Guia de estilo
+      </label>
+    
+    <a href="./" title="Guia de estilo" class="md-nav__link md-nav__link--active">
+      Guia de estilo
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#guia-de-estilo" class="md-nav__link">
+    Guia de Estilo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-objetivo-do-guia-de-estilo" class="md-nav__link">
+    1.1. Objetivo do guia de estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-organizacao-e-conteudo-do-guia-de-estilo" class="md-nav__link">
+    1.2. Organização e conteúdo do guia de estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-publico-alvo-do-guia-de-estilos-programadores-gerentes-equipe-de-suporte" class="md-nav__link">
+    1.3. Público-alvo do guia de estilos (programadores, gerentes, equipe de suporte)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-como-manter-o-guia" class="md-nav__link">
+    1.4. Como manter o guia
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-resultados-de-analise" class="md-nav__link">
+    2. Resultados de análise
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-do-ambiente-de-trabalho-do-usuario" class="md-nav__link">
+    2.1. Descrição do ambiente de trabalho do usuário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elementos-de-interface" class="md-nav__link">
+    3. Elementos de interface
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-disposicao-espacial-e-grid" class="md-nav__link">
+    3.1. Disposição espacial e grid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-janelas" class="md-nav__link">
+    3.2. Janelas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-tipografia" class="md-nav__link">
+    3.3. Tipografia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-simbolos-nao-tipograficos" class="md-nav__link">
+    3.4. Símbolos não tipográficos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-cores" class="md-nav__link">
+    3.5. Cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-animacoes" class="md-nav__link">
+    3.6. Animações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elementos-de-interacao" class="md-nav__link">
+    4. Elementos de interação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-estilos-de-interacao" class="md-nav__link">
+    4.1. Estilos de interação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-selecao-de-um-estilo" class="md-nav__link">
+    4.2. Seleção de um estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-aceleradores-teclas-de-atalho" class="md-nav__link">
+    4.3. Aceleradores (teclas de atalho)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elementos-de-acao" class="md-nav__link">
+    5. Elementos de ação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-preenchimento-de-campos" class="md-nav__link">
+    5.1. Preenchimento de campos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-selecao" class="md-nav__link">
+    5.2. Seleção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-ativacao" class="md-nav__link">
+    5.3. Ativação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-vocabulario-e-padroes" class="md-nav__link">
+    6. Vocabulário e padrões
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-terminologia" class="md-nav__link">
+    6.1. Terminologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-tipos-de-tela-para-tarefas-comuns" class="md-nav__link">
+    6.2. Tipos de tela (para tarefas comuns)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Técnicas de Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Técnicas de Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Técnicas de Análise/entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Técnicas de Análise/grupo-de-foco/" title="Grupo de foco" class="md-nav__link">
+      Grupo de foco
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#guia-de-estilo" class="md-nav__link">
+    Guia de Estilo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-objetivo-do-guia-de-estilo" class="md-nav__link">
+    1.1. Objetivo do guia de estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-organizacao-e-conteudo-do-guia-de-estilo" class="md-nav__link">
+    1.2. Organização e conteúdo do guia de estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-publico-alvo-do-guia-de-estilos-programadores-gerentes-equipe-de-suporte" class="md-nav__link">
+    1.3. Público-alvo do guia de estilos (programadores, gerentes, equipe de suporte)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-como-manter-o-guia" class="md-nav__link">
+    1.4. Como manter o guia
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-resultados-de-analise" class="md-nav__link">
+    2. Resultados de análise
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-descricao-do-ambiente-de-trabalho-do-usuario" class="md-nav__link">
+    2.1. Descrição do ambiente de trabalho do usuário
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-elementos-de-interface" class="md-nav__link">
+    3. Elementos de interface
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-disposicao-espacial-e-grid" class="md-nav__link">
+    3.1. Disposição espacial e grid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-janelas" class="md-nav__link">
+    3.2. Janelas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-tipografia" class="md-nav__link">
+    3.3. Tipografia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-simbolos-nao-tipograficos" class="md-nav__link">
+    3.4. Símbolos não tipográficos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-cores" class="md-nav__link">
+    3.5. Cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-animacoes" class="md-nav__link">
+    3.6. Animações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-elementos-de-interacao" class="md-nav__link">
+    4. Elementos de interação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-estilos-de-interacao" class="md-nav__link">
+    4.1. Estilos de interação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-selecao-de-um-estilo" class="md-nav__link">
+    4.2. Seleção de um estilo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-aceleradores-teclas-de-atalho" class="md-nav__link">
+    4.3. Aceleradores (teclas de atalho)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-elementos-de-acao" class="md-nav__link">
+    5. Elementos de ação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-preenchimento-de-campos" class="md-nav__link">
+    5.1. Preenchimento de campos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-selecao" class="md-nav__link">
+    5.2. Seleção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-ativacao" class="md-nav__link">
+    5.3. Ativação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-vocabulario-e-padroes" class="md-nav__link">
+    6. Vocabulário e padrões
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-terminologia" class="md-nav__link">
+    6.1. Terminologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-tipos-de-tela-para-tarefas-comuns" class="md-nav__link">
+    6.2. Tipos de tela (para tarefas comuns)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#referencia" class="md-nav__link">
+    Referência
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-revisoes" class="md-nav__link">
+    Histórico de Revisões
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Guia de estilo</h1>
+                
+                <h2 id="guia-de-estilo"><strong>Guia de Estilo</strong></h2>
 <p><p align= "justify"> &emsp;
 É comum, principalmente em projetos grandes, reunir os princípios e as diretrizes adotados em um documento intitulado guia de estilo. Trata-se de um registro das principais decisões de design tomadas, de forma que elas não se percam, isto é, sejam efetivamente incorporadas no produto final. Guias de estilo servem de ferramenta de comunicação entre os membros da equipe de design e também com a equipe de desenvolvimento. É importante que as decisões de design possam ser facilmente consultadas e reutilizadas nas discussões sobre extensões ou versões futuras do produto.</p></p>
 <p><img alt="artIcon" src="../../../img/painting-icon-png-24.jpg" /></p>
@@ -114,236 +936,224 @@ Um guia de estilo deve incorporar decisões de design envolvendo os principais e
 
 <p align= "justify"><b>1.</b> Layout: proporção e grids; uso de metáforas espaciais; design gráfico de exibidores e ferramentas;</p>
 
-<p align= "justify"><b>2.</b> Tipografia e seu uso em diálogos, formulários e relatórios;
+<p align= "justify"><b>2.</b> Tipografia e seu uso em diálogos, formulários e relatórios;</p>
+
 <p align= "justify"><b>3.</b> Simbolismo: clareza e consistência no design de ícones;
-Cores: os dez mandamentos sobre o uso de cores;
+Cores: os dez mandamentos sobre o uso de cores;</p>
+
 <p align= "justify"><b>4.</b> Visualização de informação: design de gráficos, diagramas e mapas;
-Design de telas e elementos de interface (widgets).
+Design de telas e elementos de interface (widgets).</p>
+
 <p align= "justify"> &emsp;
 Uma estrutura comum de guia de estilo é a seguinte (Marcus, 1992; Mayhew, 1999):</p>
 
-### **1. Introdução**
-
-#### **1.1. Objetivo do guia de estilo**
-<p align= "justify"> &emsp;O objetivo é registrar as principais decisões de design tomadas, de forma que elas não se percam, isto é, sejam efetivamente incorporadas no produto final, no caso a elaboração de um protótipo.</p>
-
-#### **1.2. Organização e conteúdo do guia de estilo**
+<h3 id="1-introducao"><strong>1. Introdução</strong></h3>
+<h4 id="11-objetivo-do-guia-de-estilo"><strong>1.1. Objetivo do guia de estilo</strong></h4>
+<p><p align= "justify"> &emsp;O objetivo é registrar as principais decisões de design tomadas, de forma que elas não se percam, isto é, sejam efetivamente incorporadas no produto final, no caso a elaboração de um protótipo.</p></p>
+<h4 id="12-organizacao-e-conteudo-do-guia-de-estilo"><strong>1.2. Organização e conteúdo do guia de estilo</strong></h4>
+<p><p align= "justify"> &emsp;
+Foi feita uma análise de um site já existente, manteremos muita coisa e reformulamos algumas dessas</p></p>
+<h4 id="13-publico-alvo-do-guia-de-estilos-programadores-gerentes-equipe-de-suporte"><strong>1.3. Público-alvo do guia de estilos (programadores, gerentes, equipe de suporte)</strong></h4>
+<p><p align= "justify"> &emsp;
+O público alvo é própria equipe que está propondo uma reformulação da aplicação para aplicar em um protótipo. </p></p>
+<h4 id="14-como-manter-o-guia"><strong>1.4. Como manter o guia</strong></h4>
+<p><p align= "justify"> &emsp;A tarefa é aperfeiçoar e corrigir erros a fim de propor um protótipo de acordo com conceitos sobre interação humano computador. Sempre que novas notícias forem adicionadas, deverá seguir o guia. </p></p>
+<h3 id="2-resultados-de-analise"><strong>2. Resultados de análise</strong></h3>
+<h4 id="21-descricao-do-ambiente-de-trabalho-do-usuario"><strong>2.1. Descrição do ambiente de trabalho do usuário</strong></h4>
+<p><p align= "justify"> &emsp;
+Em um primeiro momento, o usuário depara-se com as notícias principais, em alta, que ocorrem ou ocorreram no mundo, podendo escolher as mais diversas categorias de notícias através de um menu, podendo também ajustar as páginas para um modo noturno assim como solicitar alguma ajuda ou também compartilhar notícias. O Usuário também pode participar de chats.</p></p>
+<h3 id="3-elementos-de-interface"><strong>3. Elementos de interface</strong></h3>
+<h4 id="31-disposicao-espacial-e-grid"><strong>3.1. Disposição espacial e grid</strong></h4>
+<p><p align= "justify"> &emsp;
+A disposição espacial e grid são confusas, as janelas que contém  notícias se confundem com os anúncios oferecidos, conforme o usuário avança pelas páginas de cima para baixo, são oferecidas muitas notícias, até chegar me no fim da página. As janelas possuem um alinhamento, mas contém falhas.</p></p>
+<p><img alt="home" src="../../../img/home_terra.png" />
+<p align= "center"><i>Home page, anúncios parecem que são notícias</i></p></p>
+<p><img alt="home" src="../../../img/fim_home.png" /> <br />
+<p align= "center"><i>FIm de uma página</i></p></p>
+<p><img alt="home" src="../../../img/disp_falha.png" />
+<p align= "center"><i>Disposição espacial falha</i></p></p>
+<h4 id="32-janelas"><strong>3.2. Janelas</strong></h4>
+<p><p align= "justify"> &emsp;
+São inúmeras janelas, existem janelas para categorizar notícias, e a cada notícia são criadas mais janelas, existe um padrão a ser seguido, como por exemplo, a barra de navegação. Além disso existem janelas para um chat público assim como janelas no modo noturno.</p></p>
+<p><img alt="home" src="../../../img/modo_noturno.png" />
+<p align= "center"><i>Modo noturno</i></p></p>
+<h4 id="33-tipografia"><strong>3.3. Tipografia</strong></h4>
+<p><p align= "justify"> &emsp;
+Em relação a Tipografia, o site utiliza as seguintes fontes:</p></p>
+<p><img alt="home" src="../../../img/fontes.png" />   </p>
+<h4 id="34-simbolos-nao-tipograficos"><strong>3.4. Símbolos não tipográficos</strong></h4>
+<p><p align= "justify"> &emsp;
+Temos os seguintes Ícones para resumir certas ideias:</p></p>
+<p><img alt="home" src="../../../img/icons_terra.png" />
 <p align= "justify"> &emsp;
-Foi feita uma análise de um site já existente, manteremos muita coisa e reformulamos algumas dessas</p>
-
-#### **1.3. Público-alvo do guia de estilos (programadores, gerentes, equipe de suporte)**
+Temos a esquerda, as redes sociais da página, do outro lado, opções de chat, opções de usuário, e-mail(não entra no escopo), informações sobre clima, horóscopo e futebol, respectivamente. Outro símbolo é este abaixo, que possibilita o usuário acessar um menu com outras informações sobre o site.</p></p>
+<p><img alt="home" src="../../../img/confi_icon.png" /> </p>
+<h4 id="35-cores"><strong>3.5. Cores</strong></h4>
+<p><p align= "justify"> &emsp;A logo pode ser encontrada de duas formas diferentes, o nome do site por extenso ou apenas sua logo. Aqui está a palheta de cores de ambas as logos:</p></p>
+<p><img alt="home" src="../../../img/core_logo.png" />
 <p align= "justify"> &emsp;
-O público alvo é própria equipe que está propondo uma reformulação da aplicação para aplicar em um protótipo. </p>
-
-#### **1.4. Como manter o guia**
-<p align= "justify"> &emsp;A tarefa é aperfeiçoar e corrigir erros a fim de propor um protótipo de acordo com conceitos sobre interação humano computador. Sempre que novas notícias forem adicionadas, deverá seguir o guia. </p>
-
-### **2. Resultados de análise** 
-#### **2.1. Descrição do ambiente de trabalho do usuário**
-<p align= "justify"> &emsp;
-Em um primeiro momento, o usuário depara-se com as notícias principais, em alta, que ocorrem ou ocorreram no mundo, podendo escolher as mais diversas categorias de notícias através de um menu, podendo também ajustar as páginas para um modo noturno assim como solicitar alguma ajuda ou também compartilhar notícias. O Usuário também pode participar de chats.</p>
-
-### **3. Elementos de interface** 
-#### **3.1. Disposição espacial e grid**
-<p align= "justify"> &emsp;
-A disposição espacial e grid são confusas, as janelas que contém  notícias se confundem com os anúncios oferecidos, conforme o usuário avança pelas páginas de cima para baixo, são oferecidas muitas notícias, até chegar me no fim da página. As janelas possuem um alinhamento, mas contém falhas.</p>
-
-![home](../../img/home_terra.png)
-<p align= "center"><i>Home page, anúncios parecem que são notícias</i></p>
-
-
-![home](../../img/fim_home.png)   
-<p align= "center"><i>FIm de uma página</i></p>
-
-![home](../../img/disp_falha.png)
-<p align= "center"><i>Disposição espacial falha</i></p>
-
-#### **3.2. Janelas**
-<p align= "justify"> &emsp;
-São inúmeras janelas, existem janelas para categorizar notícias, e a cada notícia são criadas mais janelas, existe um padrão a ser seguido, como por exemplo, a barra de navegação. Além disso existem janelas para um chat público assim como janelas no modo noturno.</p>
-
-![home](../../img/modo_noturno.png)
-<p align= "center"><i>Modo noturno</i></p>
-
-#### **3.3. Tipografia**
-<p align= "justify"> &emsp;
-Em relação a Tipografia, o site utiliza as seguintes fontes:</p>
-
-![home](../../img/fontes.png)   
-
-
-#### **3.4. Símbolos não tipográficos**
-<p align= "justify"> &emsp;
-Temos os seguintes Ícones para resumir certas ideias:</p>
-
-![home](../../img/icons_terra.png)
-<p align= "justify"> &emsp;
-Temos a esquerda, as redes sociais da página, do outro lado, opções de chat, opções de usuário, e-mail(não entra no escopo), informações sobre clima, horóscopo e futebol, respectivamente. Outro símbolo é este abaixo, que possibilita o usuário acessar um menu com outras informações sobre o site.</p>
-
-![home](../../img/confi_icon.png) 
-
-
-#### **3.5. Cores**
-<p align= "justify"> &emsp;A logo pode ser encontrada de duas formas diferentes, o nome do site por extenso ou apenas sua logo. Aqui está a palheta de cores de ambas as logos:</p>
-
-![home](../../img/core_logo.png)
-<p align= "justify"> &emsp;
-No percorrer do site encontramos as seguintes cores:</p>
-
-![home](../../img/cores_terra.png)
-
-
-#### **3.6. Animações**
-O site não possui.
-
-### **4. Elementos de interação**
-#### **4.1. Estilos de interação**
-<p align= "justify"> &emsp; 
+No percorrer do site encontramos as seguintes cores:</p></p>
+<p><img alt="home" src="../../../img/cores_terra.png" /></p>
+<h4 id="36-animacoes"><strong>3.6. Animações</strong></h4>
+<p>O site não possui.</p>
+<h3 id="4-elementos-de-interacao"><strong>4. Elementos de interação</strong></h3>
+<h4 id="41-estilos-de-interacao"><strong>4.1. Estilos de interação</strong></h4>
+<p><p align= "justify"> &emsp; 
 Dentre os estilos de interação mais comumente utilizados, encontramos as linguagens de comando, a linguagem natural e a interação por menus, por formulários, por manipulação direta e WIMP (Windows, Icons, Menus, and Pointers).</p>
 <p align= "justify"> &emsp;
-O site mescla um pouco do estilo de interação por menus, por formulários e e WIMP, predominando a interação por menus, abaixo podemos ver.</p>
-
-![home](../../img/bar.png)
-<p align= "center"><i>Interação por Menus, assim como por WIMP, no caso dos ícones</i></p>
-
-
+O site mescla um pouco do estilo de interação por menus, por formulários e e WIMP, predominando a interação por menus, abaixo podemos ver.</p></p>
+<p><img alt="home" src="../../../img/bar.png" />
+<p align= "center"><i>Interação por Menus, assim como por WIMP, no caso dos ícones</i></p></p>
 <p align= "justify"> &emsp;Observação: Terra serviços não entrará no escopo</p>
 
-![home](../../img/photo_2019-10-13_23-41-18.jpg)
-<p align= "center"><i>Interação por formulários na parte de  solicitação de ajuda.</i></p>
-
-
-
-#### **4.2. Seleção de um estilo**
-<p align= "justify"> &emsp;
-O site trabalha bem com um pouco do estilo de interação por menus, por formulários e e WIMP, predominando a interação por menus, como já citado. Na interação através de menus, o sistema oferece um conjunto de opções dentre as quais o usuário deve selecionar a que lhe interessa.</p>
-
-#### **4.3. Aceleradores (teclas de atalho)** 
-<p align= "justify"> &emsp; Não possui.</p>
-
-### **5. Elementos de ação** 
-#### **5.1. Preenchimento de campos** 
-
+<p><img alt="home" src="../../../img/photo_2019-10-13_23-41-18.jpg" />
+<p align= "center"><i>Interação por formulários na parte de  solicitação de ajuda.</i></p></p>
+<h4 id="42-selecao-de-um-estilo"><strong>4.2. Seleção de um estilo</strong></h4>
+<p><p align= "justify"> &emsp;
+O site trabalha bem com um pouco do estilo de interação por menus, por formulários e e WIMP, predominando a interação por menus, como já citado. Na interação através de menus, o sistema oferece um conjunto de opções dentre as quais o usuário deve selecionar a que lhe interessa.</p></p>
+<h4 id="43-aceleradores-teclas-de-atalho"><strong>4.3. Aceleradores (teclas de atalho)</strong></h4>
+<p><p align= "justify"> &emsp; Não possui.</p></p>
+<h3 id="5-elementos-de-acao"><strong>5. Elementos de ação</strong></h3>
+<h4 id="51-preenchimento-de-campos"><strong>5.1. Preenchimento de campos</strong></h4>
 <p align= "justify"> &emsp;Para solicitar atendimento, campos devem ser preenchidos, não podendo avançar sem o preenchimento dos mesmos.</p>
 
-![home](../../img/photo_2019-10-13_23-41-18.jpg)
-
-#### **5.2. Seleção**
-<p align= "justify"> &emsp; Basta selecionar o campo de como o usuário gostaria de ser chamado, nome e e-mail. </p>
-
-#### **5.3. Ativação** 
-Depois, com apenas um clique em “enviar”, o usuário estará apto a conversar com algum funcionário da aplicação.
-
-### **6. Vocabulário e padrões** 
-#### **6.1. Terminologia** 
-<p align= "justify"> &emsp; As terminologias principais que encontramos no portal de notícias estão logo abaixo em formato de imagens: </p>
-
-![home](../../img/t1.png)
-![home](../../img/t4.png)
-![home](../../img/conj_t.png)
-
-
-
-#### **6.2. Tipos de tela (para tarefas comuns)**
-
+<p><img alt="home" src="../../../img/photo_2019-10-13_23-41-18.jpg" /></p>
+<h4 id="52-selecao"><strong>5.2. Seleção</strong></h4>
+<p><p align= "justify"> &emsp; Basta selecionar o campo de como o usuário gostaria de ser chamado, nome e e-mail. </p></p>
+<h4 id="53-ativacao"><strong>5.3. Ativação</strong></h4>
+<p>Depois, com apenas um clique em “enviar”, o usuário estará apto a conversar com algum funcionário da aplicação.</p>
+<h3 id="6-vocabulario-e-padroes"><strong>6. Vocabulário e padrões</strong></h3>
+<h4 id="61-terminologia"><strong>6.1. Terminologia</strong></h4>
+<p><p align= "justify"> &emsp; As terminologias principais que encontramos no portal de notícias estão logo abaixo em formato de imagens: </p></p>
+<p><img alt="home" src="../../../img/t1.png" />
+<img alt="home" src="../../../img/t4.png" />
+<img alt="home" src="../../../img/conj_t.png" /></p>
+<h4 id="62-tipos-de-tela-para-tarefas-comuns"><strong>6.2. Tipos de tela (para tarefas comuns)</strong></h4>
 <p align= "justify"> &emsp;Todas as páginas possuem como padrão uma barra de navegação única, os serviços são oferecidos, mas não entram no escopo do projeto.</p>
 
-![home](../../img/bar.png)                                 
-<p align= "center"><i>Navigation Bar</i></p>
-
+<p><img alt="home" src="../../../img/bar.png" />                               <br />
+<p align= "center"><i>Navigation Bar</i></p></p>
 <p align= "justify"> &emsp;A página a seguir retrata bem o uso da barra de navegação:</p>
 
-![home](../../img/beleza.png)
+<p><img alt="home" src="../../../img/beleza.png" />
 <p align= "center"><i>Página referente a beleza</i></p>
 <p align= "justify"> &emsp;
 Mayhew (1999) sugere ainda que o guia de estilo inclua todos os produtos do levantamento de dados e análise das necessidades dos usuários, registrando o design rationale, ou seja, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão.</p>
 <p align= "justify"> &emsp;
-Quando elaboramos um guia de estilo, não basta simplesmente produzi-lo. Devemos comunicar adequadamente sua existência e importância para os demais designers e desenvolvedores, oferecer treinamento, facilitar o acesso ao documento como um todo ou a um tópico específico e investir em uma mudança na cultura de design 284 Interação Humano-Computador e desenvolvimento da equipe. Além disso, não devemos tratar o guia de estilo como um conjunto de regras, mas sim uma ferramenta prática de apoio ao trabalho e à criatividade. Em outras palavras, um guia de estilo deve ser utilizado como parte de um processo reflexivo de design, e não como um conjunto de soluções prontas ou fórmulas geradoras de soluções.</p>
+Quando elaboramos um guia de estilo, não basta simplesmente produzi-lo. Devemos comunicar adequadamente sua existência e importância para os demais designers e desenvolvedores, oferecer treinamento, facilitar o acesso ao documento como um todo ou a um tópico específico e investir em uma mudança na cultura de design 284 Interação Humano-Computador e desenvolvimento da equipe. Além disso, não devemos tratar o guia de estilo como um conjunto de regras, mas sim uma ferramenta prática de apoio ao trabalho e à criatividade. Em outras palavras, um guia de estilo deve ser utilizado como parte de um processo reflexivo de design, e não como um conjunto de soluções prontas ou fórmulas geradoras de soluções.</p></p>
+<h3 id="referencia"><strong>Referência</strong></h3>
+<ul>
+<li><p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p></li>
+</ul>
+<h3 id="historico-de-revisoes"><strong>Histórico de Revisões</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Responsável</th>
+<th>Versão</th>
+<th>Alteração</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12/10/2019</td>
+<td><a href="http://github.com/dansousamelo">@dansousamelo</a></td>
+<td>1.0</td>
+<td>Adicionando Guia de Estilo</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
 
-### **Referência**
-* <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
 
-### **Histórico de Revisões**
-
-Data | Responsável | Versão | Alteração 
----- | ----------- | ------ | ---------
-12/10/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Guia de Estilo|</div>
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = "../../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../../js/base.js" defer></script>
-        <script src="../../../search/main.js" defer></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Análise de Uso/avaliacao-heuristica2.0/" title="Avaliacao heuristica2.0" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Avaliacao heuristica2.0
+              </span>
             </div>
-            <div class="modal-footer">
+          </a>
+        
+        
+          <a href="../../Técnicas de Análise/entrevista/" title="Entrevista" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Entrevista
+              </span>
             </div>
-        </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
     </div>
-</div>
-
-    </body>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.c648116f.js"></script>
+      
+        
+        
+          
+          <script src="../../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
 </html>
