@@ -40,7 +40,7 @@ Tal avaliação, tem como objetivo inspecionar sistematicamente a interface, ent
 1. Pedro Henrique Queiroz Miranda
 2. Daniel Souza de Melo
 
-### **Problemas encontrados **
+### **Problemas encontrados**
 
 <li><i><u>A funcionalidade “Modo Noturno”</u></i></li>
 
@@ -108,7 +108,7 @@ Tal avaliação, tem como objetivo inspecionar sistematicamente a interface, ent
      * Trazer a padronização para esta página.
 
 
-### **Histórico de Revisões**
+## **Histórico de Revisões**
 
 Data | Responsável | Versão | Alteração 
 ---- | ----------- | ------ | ---------

@@ -1,6 +1,6 @@
 # Home
 
-![artIcon](../../img/terra.gif)
+![artIcon](./img/terra.gif)
 
 ## **Sobre o Terra**
 <p align= "justify">Terra é uma empresa brasileira de internet pertencente ao grupo espanhol Telefónica, um dos maiores conglomerados de telecomunicações fixas e móveis do mundo.</p>
@@ -46,7 +46,7 @@
 
 ## **Integrantes**
 
-![artIcon](../../img/colaborators.png)
+![artIcon](./img/colaborators.png)
 
 ## **Professor**
 
@@ -58,7 +58,7 @@ Data | Responsável | Versão | Alteração
 ---- | ----------- | ------ | ---------
 13/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0 | Estilizado front-end do mkdocs |
 14/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 2.0 | Acrescentando conteúdo Sobre o terra, História do Terra , Sobre a disciplina, Integrantes, professor |
+14/10/2019 | [@dansousamelo](http://github.com/dansousamelo) | 2.1 | Ajustando caminho das imagens |
 
 ## **Referência**
-* <p align= "justify"> WIKIPEDIA. Terra (empresa). Disponível em: https://pt.wikipedia.org/wiki/Terra_(empresa). Acesso em: 15 out. 2019.</p>
-* <p align= "justify"> WIKIPEDIA. Interação humano–computador. Disponível em: https://pt.wikipedia.org/wiki/Intera%C3%A7%C3%A3o_humano%E2%80%93computador. Acesso em: 15 out. 2019.</p>
+* <p align= "justify"> Terra. Portal Terra e como tudo começou. Disponível em: http://tecnologia.terra.com.br/internet10anos/interna/0,,OI542329-EI5029,00.html. Acesso em: 15 out. 2019.</p>
