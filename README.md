@@ -1,4 +1,5 @@
-# 2019.2-Terra
+# Terra
+
 <p align="center">
     <a href="https://www.terra.com.br/"><img width="350" src="http://logok.org/wp-content/uploads/2015/02/Terra-logo-880x660.png"></img></a>
 </p>
