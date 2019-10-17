@@ -39,8 +39,7 @@ Essa discussão pode envolver a experiência dos usuários com um produto em par
 
 ### **Objetivos**
 * Constatar a perspectiva de usuários adultos quanto a desconfortos visuais na plataforma;
-* Encontrar bugs que pudessem ter sido presenciado por usuários;
-* Analisar nível de facilidade ao caminhar pelo site;
+* Constatar se a plataforma traz conteúdo relevante;
 
 ### **Temas:** Usabilidade, Bugs.
 
@@ -51,14 +50,31 @@ Essa discussão pode envolver a experiência dos usuários com um produto em par
 * Eles estão sempre postando notícias atualizadas?
 * As notícias são relevantes?
 
+    * <u>Discussão entre Integrantes:</u>
+        * <i>Integrante 1:</i><p align= "justify">A plataforma está sempre atualizada e me traz muitas informações relevantes, principalmente quando se fala de política. </p>
+        * <i>Integrante 2:</i><p align= "justify">Não entro na plataforma com frequência, mas nos momentos em que abro a página inicial vejo sempre notícias atualizadas e de diversos assuntos, desde que tenham sido relevantes na mídia. </p>
+
 <i><u>Questão-chave 2</i></u> - Tendo como base, por exemplo, essa imagem abaixo. É fácil e intuitivo saber o que é notícia e publicidade?
 
 ![artIcon](../../img/print_terra_1.png)
 
+* <u>Discussão entre Integrantes:</u>
+    * <i>Integrante 1:</i><p align= "justify">Conseguiu, rapidamente, distinguir a diferença entre o que é notícia e o que é publicidade. </p>
+    * <i>Integrante 2:</i><p align= "justify">Confundiu a publicidade de cima com uma notícia </p>
+
 <i><u>Questão-chave 3</i></u> - A grande quantidade de publicidade entre as notícias, interfere visualmente e cognitivamente o uso da plataforma?
+
+* <u>Discussão entre Integrantes:</u>
+    * <i>Integrante 1:</i><p align= "justify">As publicidades são incrivelmente irritantes e sempre que aparecem fico com muita raiva. Quando se trata de publicidade em vídeo, eu desligo o som e olho para outro lugar, mas menos para a publicidade até o vídeo acabar. </p>
+    * <i>Integrante 2:</i><p align= "justify">As publicidades me trazem um desconforto muito grande. É sempre chato estar lendo as notícias rápidas que aparece e ler uma publicidade achando que é notícia. </p>
+
+### **Conclusão**
+
+<p align= "justify"> Foram pegos 2 usuários adultos, sendo que 1 utiliza o terra com uma certa frequência e outro que tem um menor contato com a plataforma, porém tem conhecimento sobre tal.</p>
+<p align= "justify"> Seguindo os objetivos do grupos de foco, acima: "Constatar a perspectiva de usuários adultos quanto a desconfortos visuais na plataforma" e "Constatar se a plataforma traz conteúdo relevante", percebemos que a aplicação terra traz, em questão de conteúdo noticiário, uma excelente e atualizada bagagem, satisfazendo esses usuários. Quanto a desconfortos visuais, vemos que as publicidades geram irritação, confusão e uma certa raiva da plataforma.</p>
 
 ### **Histórico de Revisões**
 
 Data | Responsável | Versão | Alteração 
 ---- | ----------- | ------ | ---------
-13/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0 | Adicionando Guia de Foco |
+13/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0 | Adicionando Grupo de Foco |
