@@ -1,4 +1,8 @@
+### Storyboard 1
+![Storyboard1](../img/storyboard1.png)
 
+### Storyboard 2
+![Storyboard2](../img/storyboard2.png)
 
 ### **Histórico de Revisões**
 
