@@ -17,6 +17,8 @@
 ### **Referência**
 * <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
 
+* <p align= "justify">CAVALCANTI, Jorge. Engenharia de Usabilidade. [S. l.], [21--]. Disponível em: http://www.univasf.edu.br/~jorge.cavalcanti/Ihm5_Engenharia%20de%20Usabilidade.pdf. Acesso em: 3 nov. 2019.</p>
+
 ## **Histórico de Revisões**
 
 Data | Responsável | Versão | Alteração 
