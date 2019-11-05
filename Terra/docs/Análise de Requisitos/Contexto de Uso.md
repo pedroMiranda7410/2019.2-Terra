@@ -1,4 +1,4 @@
-## Contexto de Uso
+## **Contexto de Uso**
 
 ![Icon](../img/useicon.png)
 
@@ -16,3 +16,12 @@
 <b>Sistema:</b> Terra
 <p><b>Objetivo:</b> se manter informado com as mais variadas notícias, sempre atualizadas</p>
 <p><b>Processo de interação:</b>ele visualiza uma notícia, clica sobre a mesma, lê. Feito isso, ele pode ler ou não mais notícias.</p>
+
+### **Referência**
+* <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
+
+### **Histórico de Revisões**
+
+Data | Responsável | Versão | Alteração 
+---- | ----------- | ------ | ---------
+03/11/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Contexto de Uso|

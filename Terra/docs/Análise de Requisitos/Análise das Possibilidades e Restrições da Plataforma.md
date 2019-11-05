@@ -1,4 +1,4 @@
-## Análise das Possibilidades e Restrições da Plataforma
+## **Análise das Possibilidades e Restrições da Plataforma**
 
 ![Icon](../img/stop.png)
 
@@ -13,3 +13,12 @@
 * <p align="justify"><b>Responsividade:</b> se limita em certas funcionalidades ( Exemplo: Navbar)</p>
 
 * <p align="justify"><b>Horário de atendimento:</b>  A janela de atendimento fica disponível começando às 8 da manhã até às 22 horas.</p>
+
+### **Referência**
+* <p align= "justify"> SIMONE DINIZ JUNQUEIRO BARBOSA, BRUNO SANTANA DA SILVA, Interação Humano-Computador, 1a . Edição, Editora Campus, 2010.</p>
+
+## **Histórico de Revisões**
+
+Data | Responsável | Versão | Alteração 
+---- | ----------- | ------ | ---------
+03/11/2019 | [@dansousamelo](http://github.com/dansousamelo) | 1.0 | Adicionando Análise das Possibilidades e Restrições da Plataforma|
