@@ -51,6 +51,21 @@ A disposição espacial e grid são confusas, as janelas que contém  notícias 
 ![home](../../img/disp_falha.png)
 <p align= "center"><i>Disposição espacial falha</i></p>
 
+<p align= "justify"> &emsp;
+Tendo em mente a disposição atual utilizada pela plataforma Terra.com, criamos wireframes, ou grids, para usarmos como estrutura de molde no momento em que formos desenvolver os protótipos de baixa, média e alta fidelidade.</p>
+<p align= "justify"> &emsp;
+Segue abaixo, os grids citados: </p>
+
+![home](../../img/home_page_wireframe.png)
+<p align= "center"><i>Ideia da Home page</i></p>
+
+
+![home](../../img/lateral_user_wireframe.png)   
+<p align= "center"><i>Molde do popup da lateral direita</i></p>
+
+![home](../../img/menu_navbar.png)
+<p align= "center"><i>Menu lateral esquerdo</i></p>
+
 #### **3.2. Janelas**
 <p align= "justify"> &emsp;
 São inúmeras janelas, existem janelas para categorizar notícias, e a cada notícia são criadas mais janelas, existe um padrão a ser seguido, como por exemplo, a barra de navegação. Além disso existem janelas para um chat público assim como janelas no modo noturno.</p>
