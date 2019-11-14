@@ -89,6 +89,6 @@ Tabela 4: Formulário para Avaliação Heurística – Ajuda e Documentação
 
 ### **Histórico de Revisões**
 
-Data | Responsável | Versão | Alteração 
----- | ----------- | ------ | ---------
-13/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0 | Adicionando Versão Antiga |
+| Data       | Responsável                                             | Versão | Alteração                 |
+| ---------- | ------------------------------------------------------- | ------ | ------------------------- |
+| 13/10/2019 | [@pedroMiranda7410](http://github.com/pedroMiranda7410) | 1.0    | Adicionando Versão Antiga |
